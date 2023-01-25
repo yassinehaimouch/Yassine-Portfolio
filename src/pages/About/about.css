@@ -1,0 +1,33 @@
+.tx-container{
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-family: 'ClashDisplay-Regular';
+  font-size: 0.6rem;
+  margin-left: 8.7rem;
+  margin-top: 2rem;
+}
+
+.tx-container img{
+  width: 20px;
+  height: 20px;
+}
+
+.description{
+  color: white;
+  font-family: 'ClashDisplay-Regular';
+  margin-left: 8.7rem;
+  margin-top: 2rem;
+  width: 60%;
+  line-height: 3rem;
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 650px) {
+  .tx-container,
+  .description{
+    margin-left: 2rem;
+    width: 95%;
+  }
+}

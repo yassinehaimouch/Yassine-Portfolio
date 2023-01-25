@@ -1,0 +1,11 @@
+.title{
+  color: white;
+  margin-left: 8.7rem;
+  font-family: 'ClashDisplay-Regular';
+}
+
+@media screen and (max-width: 650px) {
+  .title{
+    margin-left: 2rem;
+  }
+}

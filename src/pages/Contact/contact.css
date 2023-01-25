@@ -1,0 +1,48 @@
+.contact-text{
+  color: white;
+  margin-left: 8.7rem;
+  margin-top: 6rem;
+}
+
+.contact-text h1{
+  font-size: 6rem;
+  font-family: 'ClashDisplay-Semibold';
+}
+
+.contact-text h3{
+  font-family: 'ClashDisplay-Semibold';
+}
+
+.specialOne{
+  position: fixed;
+  right: 1.2rem;
+  bottom: 3rem;
+}
+
+.contact-list{
+  list-style: none;
+  display: none;
+  gap: 2rem;
+  font-family: 'ClashDisplay-Semibold';
+}
+
+.contact-list li a{
+  color: white;
+}
+
+@media screen and (max-width: 650px) {
+  .contact-text{
+    margin-left: 2rem;
+    margin-top: 1rem;
+  }
+  .contact-text h1{
+    font-size: 6rem;
+  }
+  .contact-list{
+    display: flex;
+  }
+  .specialOne{
+    position: static;
+    margin-top: 3rem;
+  }
+}

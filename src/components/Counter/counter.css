@@ -1,0 +1,9 @@
+.count{
+  color: white;
+  font-family: 'ClashDisplay-Regular';
+  width: 44px;
+  position: fixed;
+  top: 50%;
+  left: 3.2rem;
+  transform: translate(-50%, -50%);
+}

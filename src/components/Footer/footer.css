@@ -1,0 +1,79 @@
+.footer-desktop{
+ font-family: 'ClashDisplay-Bold';
+ color: white;
+ display: flex;
+ position: fixed;
+ align-items: center;
+ justify-content: space-between;
+ width: 100%;
+ bottom: 2px;
+ left: 0;
+ padding: 0 2rem;
+ z-index: 1000;
+}
+
+.smile-icon{
+  height: 30px;
+  width: 30px;
+  margin-bottom: 2rem;
+}
+
+.footer-desktop ul{
+  display: flex;
+  gap: 10px;
+}
+
+.footer-desktop ul li{
+  list-style: none;
+  font-family: 'ClashDisplay-Light';
+}
+
+.footer-desktop ul li a{
+  color: white;
+}
+
+.footer-desktop h3,
+.footer-phone h3{
+  font-family: 'ClashDisplay-Extralight';
+  font-size: 0.7rem;
+  color: white;
+}
+
+.footer-left{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  margin-left: 5rem;
+}
+
+.footer-phone{
+  display: none;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  position: fixed;
+  bottom: 5px;
+  padding: 0 0.5rem;
+  z-index: 1000;
+}
+
+.smile-icon-phone{
+  width: 30px;
+  height: 30px;
+}
+
+.ig:hover:active{
+  /* cursor: url('../../assets/Instagram-Icon.png'), auto; */
+  cursor: -webkit-image-set(url('../../assets/Instagram-Icon.png') 1x, url('../../assets/Instagram-Icon.png') 2x) 7 7,pointer;
+  color: red;
+}
+
+@media screen and (max-width: 630px) {
+  .footer-desktop{
+    display: none;
+  }
+  .footer-phone{
+    display: flex;
+  }
+}
